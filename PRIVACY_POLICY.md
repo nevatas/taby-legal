@@ -8,14 +8,15 @@
 
 All notes, tabs, images, and settings you create in the App are stored exclusively on your device. We do not have access to your content.
 
-For the purpose of advertising attribution, the App collects limited technical data through a third-party SDK (see "Third-Party Services" below). This data may include:
+For the purposes of advertising attribution and product analytics, the App collects limited technical data through third-party SDKs (see "Third-Party Services" below). This data may include:
 
 - Device identifiers (IDFA, when authorized by you)
 - IP address
 - User agent
-- Basic app usage events (app install, app launch)
+- Basic app usage events (app install, app launch, feature usage)
+- App version, device model, and OS version
 
-This data is used solely for measuring the effectiveness of advertising campaigns and is not linked to your notes or personal content.
+This data is used for measuring the effectiveness of advertising campaigns and understanding how features are used to improve the App. It is not linked to your notes or personal content. No message text, tab titles, images, or other user-created content is ever transmitted.
 
 ## Data Storage
 
@@ -25,11 +26,13 @@ This data is used solely for measuring the effectiveness of advertising campaign
 
 ## Third-Party Services
 
-The App integrates the following third-party service:
+The App integrates the following third-party services:
 
-- **TikTok Business SDK** — used for advertising attribution and campaign measurement. TikTok may collect device identifiers, IP address, and app events as described above. TikTok's use of this data is governed by [TikTok's Privacy Policy](https://www.tiktok.com/legal/page/global/privacy-policy/en).
+- **TikTok Business SDK** — used for advertising attribution and campaign measurement. TikTok may collect device identifiers, IP address, and app events. TikTok's use of this data is governed by [TikTok's Privacy Policy](https://www.tiktok.com/legal/page/global/privacy-policy/en).
 
-The App does not integrate any other third-party services such as analytics tools, crash reporting services, or social media login SDKs.
+- **PostHog** — used for anonymous product analytics to understand feature usage and improve the App. PostHog receives only metadata (e.g., which features are used, event counts, app version) and never receives any user-created content. Data is processed on EU servers. PostHog's use of this data is governed by [PostHog's Privacy Policy](https://posthog.com/privacy).
+
+The App does not integrate any other third-party services such as crash reporting services or social media login SDKs.
 
 ## Tracking and Your Choices
 
@@ -37,7 +40,7 @@ When you first open the App, you will be asked whether you allow tracking via Ap
 
 ## Data Sharing
 
-We do not share, sell, or rent your personal content (notes, images, or settings) to any third party. The only data shared with third parties is the limited technical data described above, transmitted to TikTok for advertising attribution purposes.
+We do not share, sell, or rent your personal content (notes, images, or settings) to any third party. The only data shared with third parties is the limited technical data described above, transmitted to TikTok for advertising attribution and to PostHog for anonymous product analytics.
 
 ## Photos and Camera
 
