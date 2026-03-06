@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** February 17, 2026
+**Effective Date:** March 6, 2026
 
 **Taby** ("the App") is developed and maintained by THE COOL COMPANY ("we", "us", or "our"). This Privacy Policy explains how we handle your information when you use our App.
 
@@ -15,6 +15,7 @@ For the purposes of advertising attribution and product analytics, the App colle
 - User agent
 - Basic app usage events (app install, app launch, feature usage)
 - App version, device model, and OS version
+- Subscription status and purchase history (processed by Apple and RevenueCat; see "Third-Party Services" below)
 
 This data is used for measuring the effectiveness of advertising campaigns and understanding how features are used to improve the App. It is not linked to your notes or personal content. No message text, tab titles, images, or other user-created content is ever transmitted.
 
@@ -28,9 +29,11 @@ This data is used for measuring the effectiveness of advertising campaigns and u
 
 The App integrates the following third-party services:
 
-- **TikTok Business SDK** — used for advertising attribution and campaign measurement. TikTok may collect device identifiers, IP address, and app events. TikTok's use of this data is governed by [TikTok's Privacy Policy](https://www.tiktok.com/legal/page/global/privacy-policy/en).
+- **AppsFlyer** — used for advertising attribution and campaign measurement. AppsFlyer may collect device identifiers, IP address, and app events. AppsFlyer's use of this data is governed by [AppsFlyer's Privacy Policy](https://www.appsflyer.com/legal/services-privacy-policy/).
 
 - **PostHog** — used for anonymous product analytics to understand feature usage and improve the App. PostHog receives only metadata (e.g., which features are used, event counts, app version) and never receives any user-created content. Data is processed on EU servers. PostHog's use of this data is governed by [PostHog's Privacy Policy](https://posthog.com/privacy).
+
+- **RevenueCat** — used to manage in-app subscriptions and purchases. RevenueCat receives your anonymous app user ID, purchase and subscription history, device identifiers, and IP address. This data is used solely to process and validate subscriptions. RevenueCat does not receive any user-created content. RevenueCat's use of this data is governed by [RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy/).
 
 The App does not integrate any other third-party services such as crash reporting services or social media login SDKs.
 
@@ -40,7 +43,7 @@ When you first open the App, you will be asked whether you allow tracking via Ap
 
 ## Data Sharing
 
-We do not share, sell, or rent your personal content (notes, images, or settings) to any third party. The only data shared with third parties is the limited technical data described above, transmitted to TikTok for advertising attribution and to PostHog for anonymous product analytics.
+We do not share, sell, or rent your personal content (notes, images, or settings) to any third party. The only data shared with third parties is the limited technical data described above, transmitted to AppsFlyer for advertising attribution and to PostHog for anonymous product analytics.
 
 ## Photos and Camera
 
